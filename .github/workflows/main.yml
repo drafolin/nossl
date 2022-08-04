@@ -25,4 +25,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      -uses: 
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+          npm run generate
+          
+      - name: deploy to dist branch
+        uses: moodiest/push-to-branch-action@develop
+        env:
+          REPO: self
+          BRANCH: dist
+          FOLDER: build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
