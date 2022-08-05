@@ -42,8 +42,8 @@ useHead({
 
 		<section class="flex flex-col items-center w-screen py-5">
 			<div class="flex flex-col items-center w-4/5 lg:w-1/2">
-				<div class="p-4 text-center">Welcome on <NuxtLink to="http://wifi.dindin-nibnib.com">
-						wifi.dindin-nibnib.com</NuxtLink>!</div>
+				<div class="p-4 text-center">Welcome on <NuxtLink to="http://wifi.dindin.ch">
+						wifi.dindin.ch</NuxtLink>!</div>
 				<div class="p-4 text-center">There are less and less unsecured pages on the internet.
 					That is a good thing, because it adds security to your connection.
 					However, when you come along a wifi network that features a captive portal,
@@ -66,7 +66,7 @@ useHead({
 
 		<footer class="flex flex-col items-center w-screen px-20 py-5">
 			<div>
-				<NuxtLink to="https://dindin-nibnib.com">&copy; 2022 dindin|nibnib</NuxtLink>
+				<NuxtLink to="https://dindin.ch">&copy; 2022 dindin|nibnib</NuxtLink>
 			</div>
 		</footer>
 	</div>
