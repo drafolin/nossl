@@ -48,8 +48,8 @@ jobs:
           
       - uses: dennisameling/ftp-upload-action@v1
         with:
-          server: dindin-nibnib.com
-          username: ga8pp_github-pages
+          server: wifi.dindin-nibnib.com
+          username: l93d1_gh-actions
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: ./ # Should always end with /
           server_dir: ./ # Should always end with /
