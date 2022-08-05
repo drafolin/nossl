@@ -1,6 +1,6 @@
 <script setup lang="ts">
 onMounted(() => {
-	window.location.href = "http://wifi.dindin-nibnib.com"
+	window.location.href = "/"
 })
 </script>
 
