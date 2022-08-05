@@ -44,13 +44,20 @@ useHead({
 			<div class="flex flex-col items-center w-4/5 lg:w-1/2">
 				<div class="p-4 text-center">Welcome on <NuxtLink to="http://wifi.dindin-nibnib.com">
 						wifi.dindin-nibnib.com</NuxtLink>!</div>
-				<div class="p-4 text-center">This page serves as a triggerer for a captive wifi portal to detect you and
-					bring you to a login
-					page!
+				<div class="p-4 text-center">There are less and less unsecured pages on the internet.
+					That is a good thing, because it adds security to your connection.
+					However, when you come along a wifi network that features a captive portal,
+					you will not be able to trigger the redirection with a certificated connection,
+					since the page displayed is not the one you and the certificate are expecting.
 				</div>
-				<div class="p-4 text-center">It isn't encrypted and doesn't feature an ssl certificate, so beware of the
-					links on here!
-					Check if the links are correct and never enter any payment information on a web page linked here!
+				<div class="p-4 text-center">
+					This is the reason I created this website.
+					It is only accessible through http, since it doesn't feature an SSL certificate.
+					It therefore allows for the redirection by the captive portal to be triggered,
+					and it won't be blocked by the browser.
+				</div>
+				<div class="p-4 text-center">
+					You can use this website freely, whenever you encounter a captive portal!
 				</div>
 			</div>
 		</section>
