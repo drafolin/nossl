@@ -47,10 +47,8 @@ jobs:
         with: 
           ref: dist
           
-      - uses: dennisameling/ftp-upload-action@v1
+      - uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          server: wifi.dindin-nibnib.com
-          username: l93d1_gh-actions
-          password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./ # Should always end with /
-          server_dir: ./ # Should always end with /
+          ftp-server: ftp://wifi.dindin-nibnib.com
+          ftp-username: l93d1_gh-actions
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
