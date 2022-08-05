@@ -7,6 +7,12 @@ useHead({
 			"name": "description",
 			"content": "You are connected to internet"
 		}
+	],
+	"link": [
+		{
+			"rel": "icon",
+			"href": "/favicon.ico"
+		}
 	]
 })
 </script>
