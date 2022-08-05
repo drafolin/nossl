@@ -48,5 +48,5 @@ jobs:
       - uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server: ftp://wifi.dindin.ch
-          ftp-username: l93d1_gh-actions
+          ftp-username: 4y7zl_github-actions
           ftp-password: ${{ secrets.FTP_PASSWORD }}
