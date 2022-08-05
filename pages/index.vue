@@ -12,7 +12,7 @@ useHead({
 </script>
 
 <template>
-	<div class="w-full h-full bg-white dark:bg-slate-800">
+	<div class="w-full h-full bg-white dark:bg-slate-900">
 		<div class="flex items-center w-screen h-screen">
 			<div class="flex flex-col items-center w-screen">
 				<h1 class="m-6 text-6xl font-bold">Connected!</h1>
