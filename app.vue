@@ -1,4 +1,4 @@
-<script setup lang="ts>
+<script setup lang="ts">
 useHead({
   meta: [
     {name: "theme-color", content: "#1e2327"}
