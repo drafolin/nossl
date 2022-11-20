@@ -1,0 +1,22 @@
+{
+  "name": "nossl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dindin-nibnib/nossl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dindin-nibnib/nossl/issues"
+  },
+  "homepage": "https://github.com/dindin-nibnib/nossl#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
