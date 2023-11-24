@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass index.scss:index.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/dindin-nibnib/nossl#readme",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "sass": "^1.69.5"
   }
 }
