@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir dist && sass index.scss:index.css && cp index.css dist/index.css && cp index.html dist/index.html && cp favicon.ico dist/favicon.ico"
+    "build": "mkdir -p dist && sass index.scss:index.css && cp index.css dist/index.css && cp index.html dist/index.html && cp favicon.ico dist/favicon.ico"
   },
   "repository": {
     "type": "git",
